@@ -1,0 +1,27 @@
+# DAV 2008 T
+
+Die Tafel DAV 2008 T wurde erstmals am 4. Dezember 2008 als **Richtlinie** der DAV verabschiedet. Zuletzt 2022 überprüft ([siehe aktuar.de](#0)).
+
+*"Die Richtlinie **regelt verbindlich** die **Methodik zur Herleitung von Sterbetafeln** für die Reservierung und das **Verfahren zur Festsetzung von Sicherheitszuschlägen** bei den oben genannten Produkten. Diese methodischen Vorgaben stellen dabei in genereller Hinsicht einen **Mindeststandard** dar, der insbesondere auch bei der Herleitung unternehmenseigener Tafeln zu gewährleisten ist."*
+
+## Daten
+
+### Zentrale Altersbereiche
+
+Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren **2001-2004.** Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.
+
+### Randbereich
+
+Bevölkerungsdaten
+
+### Extrapolation
+
+Logistische Modell (wie DAV 2004 R)
+
+## Sicherheitszuschläge
+
+-   Schwankungsrisiko
+
+-   Irrtumsrisiko - für Herleitung und Anwendung
+
+-   Änderungsrisiko durch den Ansatz eines Nulltrends
