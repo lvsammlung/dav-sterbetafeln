@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -110,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">Info</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -201,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="daten">Daten</h2>
 <section id="zentrale-altersbereiche" class="level3">
 <h3 class="anchored" data-anchor-id="zentrale-altersbereiche">Zentrale Altersbereiche</h3>
-<p>Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren <strong>2001-2004.</strong> Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.</p>
+<p>Für den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren <strong>2001-2004</strong> verwendet. Leitlinie ist die Regel <span class="math display">\[l_x \cdot q_x^{roh} \cdot (1-q_x^{roh})\]</span> Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.</p>
 </section>
 <section id="randbereich" class="level3">
 <h3 class="anchored" data-anchor-id="randbereich">Randbereich</h3>

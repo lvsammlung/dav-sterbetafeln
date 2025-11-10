@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "dav-sterbetafeln",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Info\nSammlung zu DAV Sterbetafeln DAV 1994 T und DAV 2008 T.",
     "crumbs": [
-      "Preface"
+      "Info"
     ]
   },
   {
@@ -35,7 +35,7 @@
     "href": "dav2008t/dav2008t.html#daten",
     "title": "DAV 2008 T",
     "section": "",
-    "text": "Zentrale Altersbereiche\nDatenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren 2001-2004. Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.\n\n\nRandbereich\nBevölkerungsdaten\n\n\nExtrapolation\nLogistische Modell (wie DAV 2004 R)",
+    "text": "Zentrale Altersbereiche\nFür den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren 2001-2004 verwendet. Leitlinie ist die Regel \\[l_x \\cdot q_x^{roh} \\cdot (1-q_x^{roh})\\] Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.\n\n\nRandbereich\nBevölkerungsdaten\n\n\nExtrapolation\nLogistische Modell (wie DAV 2004 R)",
     "crumbs": [
       "DAV 2008 T"
     ]
