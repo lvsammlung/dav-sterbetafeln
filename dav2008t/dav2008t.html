@@ -213,6 +213,10 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#zentrale-altersbereiche" id="toc-zentrale-altersbereiche" class="nav-link" data-scroll-target="#zentrale-altersbereiche">Zentrale Altersbereiche</a></li>
   <li><a href="#randbereich" id="toc-randbereich" class="nav-link" data-scroll-target="#randbereich">Randbereich</a></li>
+  </ul></li>
+  <li><a href="#tafel-2.-ord" id="toc-tafel-2.-ord" class="nav-link" data-scroll-target="#tafel-2.-ord">Tafel 2. Ord</a>
+  <ul class="collapse">
+  <li><a href="#glättung" id="toc-glättung" class="nav-link" data-scroll-target="#glättung">Glättung</a></li>
   <li><a href="#extrapolation" id="toc-extrapolation" class="nav-link" data-scroll-target="#extrapolation">Extrapolation</a></li>
   </ul></li>
   <li><a href="#sicherheitszuschläge" id="toc-sicherheitszuschläge" class="nav-link" data-scroll-target="#sicherheitszuschläge">Sicherheitszuschläge</a></li>
@@ -247,7 +251,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="daten">Daten</h2>
 <section id="zentrale-altersbereiche" class="level3">
 <h3 class="anchored" data-anchor-id="zentrale-altersbereiche">Zentrale Altersbereiche</h3>
-<p>Für den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren <strong>2001-2004</strong> verwendet. Leitlinie ist die Regel <span class="math inline">\(l_x \cdot q_x^{roh} \cdot (1-q_x^{roh})\)</span> .</p>
+<p>Für den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren <strong>2001-2004</strong> verwendet. Leitlinie ist die Regel <span class="math inline">\(l_x \cdot q_x^{roh} \cdot (1-q_x^{roh}) \geq 9\)</span> .</p>
 <p>Risiko- und Kapitallebensversicherungen sowie fondsgebundene Versicherungen.</p>
 <p>Ultimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.</p>
 <p>Verweildauermethode mit Verweildauer 1 der beobachteten Toten.</p>
@@ -255,6 +259,18 @@ window.Quarto = {
 <section id="randbereich" class="level3">
 <h3 class="anchored" data-anchor-id="randbereich">Randbereich</h3>
 <p>Bevölkerungsdaten</p>
+</section>
+</section>
+<section id="tafel-2.-ord" class="level2">
+<h2 class="anchored" data-anchor-id="tafel-2.-ord">Tafel 2. Ord</h2>
+<section id="glättung" class="level3">
+<h3 class="anchored" data-anchor-id="glättung">Glättung</h3>
+<p>Whittaker-Henderson (s=3, g=0,5)</p>
+<pre><code>Beim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:
+
+Gute Approximation der rohen Werte
+
+Glättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.</code></pre>
 </section>
 <section id="extrapolation" class="level3">
 <h3 class="anchored" data-anchor-id="extrapolation">Extrapolation</h3>
