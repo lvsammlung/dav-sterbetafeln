@@ -1,0 +1,26 @@
+# Zur Verweildauermethode
+
+In den DAV-Tafeln ab DAV 2008 T  wird die Verweildauermethode mit Verweildauer 1 
+für die Todesfälle verwendet. Im Gegensatz dazu ist die Zählung der beobachteten
+Verweildauer übervorsichtig und bildet nicht die eigentliche Wahrscheinlichkeit ab.
+
+Sei bspw. q=50% die Sterbewahrscheinlichkeit. Mit der Verweildauermethode mit
+Verweildauer 1 der Todesfälle würden bei 0.5 Todesfällen eine Verweildauer von 
+0.5 (Anteil Todesfälle) + 0.5 (Anteil Aktive ohne Todesfall) beobachtet werden 
+und genau zu der vorliegenden Sterbewahrscheinlichkeit 0.5/1 führen.
+
+Bei der Aktivenzählung entsprechend der Beobachtung würde 0.67 = 0.5/(0.5*0.5 + 0.5)
+geschätzt werden und somit die Sterbewahrscheinlichkeit um über 30% überschätzt werden.
+
+## Auswirkung
+
+Um welchen Wert die Sterbewahrscheinlichkeit übershcätzt wird, ist abhängig von der Höhe des tatsächlichen $q_x$ und kann der folgenden Tabelle entnommen werden. Abgeshätzt werden kann der Prozentsatz mit der Hälfte des $q_x$, wobei bei größeren $q_x$-Werten der Prozentsatz unterschätzt wird. 
+
+```{r}
+q <- c(0.001, 0.005, 0.01, 0.05)
+dplyr::tibble(q, q_schaetzung = q/(1-q+q*0.5), ueberschaetzung = 1/(1-q+q*0.5)) |> 
+  gt::gt() |>
+  gt::tab_options(table.font.size = 9) |>
+  gt::fmt_number(q:ueberschaetzung, decimals = 4, dec_mark = ",", sep_mark = ".")
+```
+
