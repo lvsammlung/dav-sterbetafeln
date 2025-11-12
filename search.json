@@ -45,7 +45,7 @@
     "href": "dav2008t/dav2008t.html#tafel-2.-ord",
     "title": "DAV 2008 T",
     "section": "Tafel 2. Ord",
-    "text": "Tafel 2. Ord\n\nGlättung\nWhittaker-Henderson (s=3, g=0,5)\nBeim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:\n\nGute Approximation der rohen Werte\n\nGlättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.\n\n\nExtrapolation\nLogistische Modell (wie DAV 2004 R)",
+    "text": "Tafel 2. Ord\n\n\nGlättung\nGlättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)\n\nBeim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:\n\nGute Approximation der rohen Werte\nGlättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.\n\nZusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.\n\n\n\nExtrapolation\n\nBis Alter 100\n\nAnsatz: Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.\n\nDaten: Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100\nGlättung: werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. [Human Mortality Database], S.12 der Herleitung)\nÜbergang: Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).\n\n\nAb Alter 100\nDie Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).",
     "crumbs": [
       "DAV 2008 T"
     ]
@@ -55,7 +55,7 @@
     "href": "dav2008t/dav2008t.html#sicherheitszuschläge",
     "title": "DAV 2008 T",
     "section": "Sicherheitszuschläge",
-    "text": "Sicherheitszuschläge\n\nSchwankungsrisiko\nIrrtumsrisiko - für Herleitung und Anwendung\nÄnderungsrisiko durch den Ansatz eines Nulltrends",
+    "text": "Sicherheitszuschläge\n\n\nSchwankungsrisiko\n\n\nIrrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung\nÄnderungsrisiko durch den Ansatz eines Nulltrends",
     "crumbs": [
       "DAV 2008 T"
     ]

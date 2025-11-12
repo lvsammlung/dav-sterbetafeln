@@ -219,7 +219,11 @@ window.Quarto = {
   <li><a href="#glättung" id="toc-glättung" class="nav-link" data-scroll-target="#glättung">Glättung</a></li>
   <li><a href="#extrapolation" id="toc-extrapolation" class="nav-link" data-scroll-target="#extrapolation">Extrapolation</a></li>
   </ul></li>
-  <li><a href="#sicherheitszuschläge" id="toc-sicherheitszuschläge" class="nav-link" data-scroll-target="#sicherheitszuschläge">Sicherheitszuschläge</a></li>
+  <li><a href="#sicherheitszuschläge" id="toc-sicherheitszuschläge" class="nav-link" data-scroll-target="#sicherheitszuschläge">Sicherheitszuschläge</a>
+  <ul class="collapse">
+  <li><a href="#schwankungsrisiko" id="toc-schwankungsrisiko" class="nav-link" data-scroll-target="#schwankungsrisiko">Schwankungsrisiko</a></li>
+  <li><a href="#irrtumsrisiko" id="toc-irrtumsrisiko" class="nav-link" data-scroll-target="#irrtumsrisiko">Irrtumsrisiko</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -263,29 +267,51 @@ window.Quarto = {
 </section>
 <section id="tafel-2.-ord" class="level2">
 <h2 class="anchored" data-anchor-id="tafel-2.-ord">Tafel 2. Ord</h2>
+<p><img src="images/clipboard-4241905034.png" class="img-fluid"></p>
 <section id="glättung" class="level3">
 <h3 class="anchored" data-anchor-id="glättung">Glättung</h3>
-<p>Whittaker-Henderson (s=3, g=0,5)</p>
-<pre><code>Beim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:
-
-Gute Approximation der rohen Werte
-
-Glättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.</code></pre>
+<p>Glättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)</p>
+<blockquote class="blockquote">
+<p>Beim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:</p>
+<ul>
+<li><p>Gute Approximation der rohen Werte</p></li>
+<li><p>Glättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.</p></li>
+</ul>
+<p>Zusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.</p>
+</blockquote>
 </section>
 <section id="extrapolation" class="level3">
 <h3 class="anchored" data-anchor-id="extrapolation">Extrapolation</h3>
-<p>Logistische Modell (wie DAV 2004 R)</p>
+<section id="bis-alter-100" class="level4">
+<h4 class="anchored" data-anchor-id="bis-alter-100">Bis Alter 100</h4>
+<blockquote class="blockquote">
+<p><strong>Ansatz:</strong> Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.</p>
+</blockquote>
+<p><strong>Daten:</strong> Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100</p>
+<p><strong>Glättung:</strong> werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. [Human Mortality Database], S.12 der Herleitung)</p>
+<p><strong>Übergang:</strong> Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).</p>
+</section>
+<section id="ab-alter-100" class="level4">
+<h4 class="anchored" data-anchor-id="ab-alter-100">Ab Alter 100</h4>
+<p>Die Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).</p>
+</section>
 </section>
 </section>
 <section id="sicherheitszuschläge" class="level2">
 <h2 class="anchored" data-anchor-id="sicherheitszuschläge">Sicherheitszuschläge</h2>
+<p><img src="images/clipboard-296253850.png" class="img-fluid"></p>
+<section id="schwankungsrisiko" class="level3">
+<h3 class="anchored" data-anchor-id="schwankungsrisiko">Schwankungsrisiko</h3>
+</section>
+<section id="irrtumsrisiko" class="level3">
+<h3 class="anchored" data-anchor-id="irrtumsrisiko">Irrtumsrisiko</h3>
 <ul>
-<li><p>Schwankungsrisiko</p></li>
 <li><p>Irrtumsrisiko - für Herleitung und Anwendung</p></li>
 <li><p>Änderungsrisiko durch den Ansatz eines Nulltrends</p></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
