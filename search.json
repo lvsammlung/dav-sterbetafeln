@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "dav-sterbetafeln",
+    "title": "DAV Sterbetafeln",
     "section": "",
     "text": "Info\nSammlung zu DAV Sterbetafeln DAV 1994 T und DAV 2008 T.",
     "crumbs": [
@@ -10,14 +10,13 @@
     ]
   },
   {
-    "objectID": "dav94t-uebersicht.html",
-    "href": "dav94t-uebersicht.html",
-    "title": "1  DAV 1994 T - Übersicht",
+    "objectID": "dav1994t/dav1994t.html",
+    "href": "dav1994t/dav1994t.html",
+    "title": "DAV 1994 T",
     "section": "",
-    "text": "1.1",
+    "text": "Quellen\nhttps://github.com/lvsammlung/dav-sterbetafeln/blob/main/Resources/dav1994T.pdf",
     "crumbs": [
-      "DAV 1994 T",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>DAV 1994 T - Übersicht</span>"
+      "DAV 1994 T"
     ]
   },
   {
@@ -63,45 +62,45 @@
   {
     "objectID": "dav2008t/quellen.html",
     "href": "dav2008t/quellen.html",
-    "title": "3  Quellen",
+    "title": "2  Quellen",
     "section": "",
-    "text": "3.1 DAV",
+    "text": "2.1 DAV",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2008t/quellen.html#dav",
     "href": "dav2008t/quellen.html#dav",
-    "title": "3  Quellen",
+    "title": "2  Quellen",
     "section": "",
     "text": "DAV 2008 T https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR https://aktuar.de/de/wissen/fachinformationen/detail/raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2008t/quellen.html#qx-club",
     "href": "dav2008t/quellen.html#qx-club",
-    "title": "3  Quellen",
-    "section": "3.2 Qx-Club",
-    "text": "3.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
+    "title": "2  Quellen",
+    "section": "2.2 Qx-Club",
+    "text": "2.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "sonstiges/verweildauermethode.html",
     "href": "sonstiges/verweildauermethode.html",
-    "title": "4  Zur Verweildauermethode",
+    "title": "3  Zur Verweildauermethode",
     "section": "",
-    "text": "4.1 Auswirkung\nIn den DAV-Tafeln ab DAV 2008 T wird die Verweildauermethode mit Verweildauer 1 für die Todesfälle verwendet. Im Gegensatz dazu ist die Zählung der beobachteten Verweildauer übervorsichtig und bildet nicht die eigentliche Wahrscheinlichkeit ab.\nSei bspw. q=50% die Sterbewahrscheinlichkeit. Mit der Verweildauermethode mit Verweildauer 1 der Todesfälle würden bei 0.5 Todesfällen eine Verweildauer von 0.5 (Anteil Todesfälle) + 0.5 (Anteil Aktive ohne Todesfall) beobachtet werden und genau zu der vorliegenden Sterbewahrscheinlichkeit 0.5/1 führen.\nBei der Aktivenzählung entsprechend der Beobachtung würde 0.67 = 0.5/(0.5*0.5 + 0.5) geschätzt werden und somit die Sterbewahrscheinlichkeit um über 30% überschätzt werden.\nUm welchen Wert die Sterbewahrscheinlichkeit übershcätzt wird, ist abhängig von der Höhe des tatsächlichen \\(q_x\\) und kann der folgenden Tabelle entnommen werden. Abgeshätzt werden kann der Prozentsatz mit der Hälfte des \\(q_x\\), wobei bei größeren \\(q_x\\)-Werten der Prozentsatz unterschätzt wird.\nq\nq_schaetzung\nueberschaetzung\n\n\n\n\n0,0010\n0,0010\n1,0005\n\n\n0,0050\n0,0050\n1,0025\n\n\n0,0100\n0,0101\n1,0050\n\n\n0,0500\n0,0513\n1,0256",
+    "text": "3.1 Auswirkung\nIn den DAV-Tafeln ab DAV 2008 T wird die Verweildauermethode mit Verweildauer 1 für die Todesfälle verwendet. Im Gegensatz dazu ist die Zählung der beobachteten Verweildauer übervorsichtig und bildet nicht die eigentliche Wahrscheinlichkeit ab.\nSei bspw. q=50% die Sterbewahrscheinlichkeit. Mit der Verweildauermethode mit Verweildauer 1 der Todesfälle würden bei 0.5 Todesfällen eine Verweildauer von 0.5 (Anteil Todesfälle) + 0.5 (Anteil Aktive ohne Todesfall) beobachtet werden und genau zu der vorliegenden Sterbewahrscheinlichkeit 0.5/1 führen.\nBei der Aktivenzählung entsprechend der Beobachtung würde 0.67 = 0.5/(0.5*0.5 + 0.5) geschätzt werden und somit die Sterbewahrscheinlichkeit um über 30% überschätzt werden.\nUm welchen Wert die Sterbewahrscheinlichkeit übershcätzt wird, ist abhängig von der Höhe des tatsächlichen \\(q_x\\) und kann der folgenden Tabelle entnommen werden. Abgeshätzt werden kann der Prozentsatz mit der Hälfte des \\(q_x\\), wobei bei größeren \\(q_x\\)-Werten der Prozentsatz unterschätzt wird.\nq\nq_schaetzung\nueberschaetzung\n\n\n\n\n0,0010\n0,0010\n1,0005\n\n\n0,0050\n0,0050\n1,0025\n\n\n0,0100\n0,0101\n1,0050\n\n\n0,0500\n0,0513\n1,0256",
     "crumbs": [
       "Sonstiges",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Zur Verweildauermethode</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Zur Verweildauermethode</span>"
     ]
   }
 ]
