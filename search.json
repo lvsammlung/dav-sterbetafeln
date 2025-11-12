@@ -14,6 +14,26 @@
     "href": "dav1994t/dav1994t.html",
     "title": "DAV 1994 T",
     "section": "",
+    "text": "Inhalt des Herleitungsdokuments",
+    "crumbs": [
+      "DAV 1994 T"
+    ]
+  },
+  {
+    "objectID": "dav1994t/dav1994t.html#inhalt-des-herleitungsdokuments",
+    "href": "dav1994t/dav1994t.html#inhalt-des-herleitungsdokuments",
+    "title": "DAV 1994 T",
+    "section": "",
+    "text": "Einführung\nAusgangsdaten der neuen DAV-Sterbetafel 1994T\nBerechnungsansätze\n2.1 Statistischer Schwankungszuschlag\n2.2 Änderungsrisiko der Sterblichkeit\nBisherige Techniken zur Ermittlung von Sterbetafeln\n3.1 Mechanisches Zuschlagsverfahren der Verbandssterbetafel 1986\n3.2 Zuschlagsverfahren des Canadian Institute of Actuaries ( CIA-Verfahren)\nVergleich der Ergebnisse\nUnternehmenseigene Sterbetafeln\n5.1 Verfahren zum Erstellen der Sterbetafel\n5.2 Beispiel zur die Ableitung einer unternehmenseigenen Sterbetafel\n5.3 Beschreibung des Ausgleichsverfahrens yon Whittaker-Henderson\n5.4 Selektionseinfluss",
+    "crumbs": [
+      "DAV 1994 T"
+    ]
+  },
+  {
+    "objectID": "dav1994t/dav1994t.html#daten",
+    "href": "dav1994t/dav1994t.html#daten",
+    "title": "DAV 1994 T",
+    "section": "Daten",
     "text": "Daten",
     "crumbs": [
       "DAV 1994 T"
@@ -37,6 +57,17 @@
     "text": "Sicherheitszuschläge",
     "crumbs": [
       "DAV 1994 T"
+    ]
+  },
+  {
+    "objectID": "dav1994t/quellen.html",
+    "href": "dav1994t/quellen.html",
+    "title": "1  Quellen",
+    "section": "",
+    "text": "https://github.com/lvsammlung/dav-sterbetafeln/blob/main/Resources/dav1994T.pdf",
+    "crumbs": [
+      "DAV 1994 T",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
