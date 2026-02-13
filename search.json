@@ -75,83 +75,97 @@
     "href": "dav2008t/dav2008t.html",
     "title": "DAV 2008 T",
     "section": "",
-    "text": "Daten\nDie Tafel DAV 2008 T wurde erstmals am 4. Dezember 2008 als Richtlinie der DAV verabschiedet. Zuletzt 2022 überprüft (siehe aktuar.de).\n“Die Richtlinie regelt verbindlich die Methodik zur Herleitung von Sterbetafeln für die Reservierung und das Verfahren zur Festsetzung von Sicherheitszuschlägen bei den oben genannten Produkten. Diese methodischen Vorgaben stellen dabei in genereller Hinsicht einen Mindeststandard dar, der insbesondere auch bei der Herleitung unternehmenseigener Tafeln zu gewährleisten ist.”",
+    "text": "Die Tafel DAV 2008 T besteht aus einer Aggregattafel sowie Tafeln für Raucher- und Nichtraucher, deren Herleitungen in zwei separaten Dokumenten zu finden ist.",
     "crumbs": [
       "DAV 2008 T"
     ]
   },
   {
-    "objectID": "dav2008t/dav2008t.html#daten",
-    "href": "dav2008t/dav2008t.html#daten",
-    "title": "DAV 2008 T",
+    "objectID": "dav2008t/aggregat.html",
+    "href": "dav2008t/aggregat.html",
+    "title": "2  DAV 2008 T - Aggregattafel",
     "section": "",
-    "text": "Zentrale Altersbereiche\nFür den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren 2001-2004 verwendet. Leitlinie ist die Regel \\(l_x \\cdot q_x^{roh} \\cdot (1-q_x^{roh}) \\geq 9\\) .\nRisiko- und Kapitallebensversicherungen sowie fondsgebundene Versicherungen.\nUltimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.\nVerweildauermethode mit Verweildauer 1 der beobachteten Toten.\n\n\nRandbereich\nBevölkerungsdaten",
+    "text": "2.1 Daten\nDie Tafel DAV 2008 T wurde erstmals am 4. Dezember 2008 als Richtlinie der DAV verabschiedet. Zuletzt 2022 überprüft (siehe aktuar.de).\n“Die Richtlinie regelt verbindlich die Methodik zur Herleitung von Sterbetafeln für die Reservierung und das Verfahren zur Festsetzung von Sicherheitszuschlägen bei den oben genannten Produkten. Diese methodischen Vorgaben stellen dabei in genereller Hinsicht einen Mindeststandard dar, der insbesondere auch bei der Herleitung unternehmenseigener Tafeln zu gewährleisten ist.”",
     "crumbs": [
-      "DAV 2008 T"
+      "DAV 2008 T",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>DAV 2008 T - Aggregattafel</span>"
     ]
   },
   {
-    "objectID": "dav2008t/dav2008t.html#tafel-2.-ord",
-    "href": "dav2008t/dav2008t.html#tafel-2.-ord",
-    "title": "DAV 2008 T",
-    "section": "Tafel 2. Ord",
-    "text": "Tafel 2. Ord\n\n\nGlättung\nGlättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)\n\nBeim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:\n\nGute Approximation der rohen Werte\nGlättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.\n\nZusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.\n\n\n\nExtrapolation\n\nBis Alter 100\n\nAnsatz: Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.\n\nDaten: Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100\nGlättung: werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. [Human Mortality Database], S.12 der Herleitung)\nÜbergang: Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).\n\n\nAb Alter 100\nDie Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).",
+    "objectID": "dav2008t/aggregat.html#daten",
+    "href": "dav2008t/aggregat.html#daten",
+    "title": "2  DAV 2008 T - Aggregattafel",
+    "section": "",
+    "text": "2.1.1 Zentrale Altersbereiche\nFür den zentralen Altersbereich von 15-75 werden die Daten des Datenpool aus GenRe, Münchner Rück, SwissRe, Verband öffentlicher Versicherer mit Beobachtungsjahren 2001-2004 verwendet. Leitlinie ist die Regel \\(l_x \\cdot q_x^{roh} \\cdot (1-q_x^{roh}) \\geq 9\\) .\nRisiko- und Kapitallebensversicherungen sowie fondsgebundene Versicherungen.\nUltimatebestand (6+), da in den ersten 5 Jahren Selektionseffekte zu beobachten sind.\nVerweildauermethode mit Verweildauer 1 der beobachteten Toten.\n\n\n2.1.2 Randbereich\nBevölkerungsdaten",
     "crumbs": [
-      "DAV 2008 T"
+      "DAV 2008 T",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>DAV 2008 T - Aggregattafel</span>"
     ]
   },
   {
-    "objectID": "dav2008t/dav2008t.html#sicherheitszuschläge",
-    "href": "dav2008t/dav2008t.html#sicherheitszuschläge",
-    "title": "DAV 2008 T",
-    "section": "Sicherheitszuschläge",
-    "text": "Sicherheitszuschläge\nEs gibt\n\neinen Schwankungszuschlag \\(s^{\\alpha} = 7,4\\%\\) (geschlechts- und altersunabhängig)\nsowie einen Irrtumszuschlag bestehend aus zwei Komponenten (\\(r^2\\) unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)\nein impliziter Änderungszuschlag ist über die Sterblichkeitsverbesserung bereits enthalten\n\n\\[𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \\cdot (1+s^{\\alpha}) \\cdot (1 + r^1 + r^2)\\]\n\nSchwankungsrisiko\n\nÜbersicht\n\nanzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)\nGeschlechts- und altersunabhängig, Sicherheitsniveau von 95%\n\nVorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.\nModellbestand für Alter 20-65 (wo Versichertendaten vorliegen)\n\n\n\n\n\nIrrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung",
+    "objectID": "dav2008t/aggregat.html#tafel-2.-ord",
+    "href": "dav2008t/aggregat.html#tafel-2.-ord",
+    "title": "2  DAV 2008 T - Aggregattafel",
+    "section": "2.2 Tafel 2. Ord",
+    "text": "2.2 Tafel 2. Ord\n\n\n2.2.1 Glättung\nGlättung des zentralen Altersbereichs mit Whittaker-Henderson (s=3, g=0,5)\n\nBeim Ausgleich der Versichertensterbewahrscheinlichkeiten sind insbesondere die folgenden Kriterien zu berücksichtigen:\n\nGute Approximation der rohen Werte\nGlättung von Schwankungen, aber Erhalt der Struktur der Kurve, insbesondere des vor allen Dingen bei den Männern stark ausgeprägten Unfallbuckels.\n\nZusätzlich soll die Extrapoliation im Fall der DAV 2008 T so gewählt sein, dass ein möglichst glatter Übergang zu den Bevölkerungssterbewahrscheinlichkeiten an den Übergangsstellen gewährleistet ist.\n\n\n\n2.2.2 Extrapolation\n\n2.2.2.1 Bis Alter 100\n\nAnsatz: Glättung von Bevölkerungsdaten, Bestimmung von Schnittstellen mit geglätteten Versichertendaten, um Übergang zu wählen. Der Übergang stellt sich als hinreichend glatt dar, so dass keine weitere Glättung nach Verbinden der glatten Versicherten- und Bevölkerungssterbewahrscheinlichkeiten notwendig sind.\n\nDaten: Bevölkerungsdaten: St 2002/04 D, Altersbereich 1-100\nGlättung: werden ebenfalls mit WH geglättet: Altersbereich 1-100, s=2, g=0, Bevölkerungsverteilung vom 1.1.2003 (s. [Human Mortality Database], S.12 der Herleitung)\nÜbergang: Altern 20/21 und 71/72 für Männer sowie in den Altern 17/18 und 72/73 für Frauen. (In höheren Altern findet nachfolgend ein Übergang auf die mit dem logistischen Modell gewählten Extrapolation statt).\n\n\n2.2.2.2 Ab Alter 100\nDie Sterbetafel soll Wahrscheinlichkeiten bis zum Alter 121 erhalten. Für die Alter über 100 wird dafür das Logistische Modell mit vier Parametern (wie in der DAV 2004 R verwendet und sich als gutes Verfahren zur Extrapolation sehr hoher Alter herausgestellt hat).",
     "crumbs": [
-      "DAV 2008 T"
+      "DAV 2008 T",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>DAV 2008 T - Aggregattafel</span>"
+    ]
+  },
+  {
+    "objectID": "dav2008t/aggregat.html#sicherheitszuschläge",
+    "href": "dav2008t/aggregat.html#sicherheitszuschläge",
+    "title": "2  DAV 2008 T - Aggregattafel",
+    "section": "2.3 Sicherheitszuschläge",
+    "text": "2.3 Sicherheitszuschläge\nEs gibt\n\neinen Schwankungszuschlag \\(s^{\\alpha} = 7,4\\%\\) (geschlechts- und altersunabhängig)\nsowie einen Irrtumszuschlag bestehend aus zwei Komponenten (\\(r^2\\) unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)\nein impliziter Änderungszuschlag ist über die Sterblichkeitsverbesserung bereits enthalten\n\n\\[𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \\cdot (1+s^{\\alpha}) \\cdot (1 + r^1 + r^2)\\]\n\n2.3.1 Schwankungsrisiko\n\n2.3.1.1 Übersicht\n\nanzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)\nGeschlechts- und altersunabhängig, Sicherheitsniveau von 95%\n\nVorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.\nModellbestand für Alter 20-65 (wo Versichertendaten vorliegen)\n\n\n\n\n\n2.3.2 Irrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung",
+    "crumbs": [
+      "DAV 2008 T",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>DAV 2008 T - Aggregattafel</span>"
     ]
   },
   {
     "objectID": "dav2008t/quellen.html",
     "href": "dav2008t/quellen.html",
-    "title": "3  Quellen",
+    "title": "4  Quellen",
     "section": "",
-    "text": "3.1 DAV",
+    "text": "4.1 DAV",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2008t/quellen.html#dav",
     "href": "dav2008t/quellen.html#dav",
-    "title": "3  Quellen",
+    "title": "4  Quellen",
     "section": "",
     "text": "DAV 2008 T herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/\nÜberprüfung der Richtlinien - 29.11.2022 DAV Webseite (PDF)\nBest Estimate - 23.06.2020 der-best-estimate-fuer-biometrische-rechnungsgrundlagen-in-der-lebensversicherung/",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "dav2008t/quellen.html#weitere-quellen",
     "href": "dav2008t/quellen.html#weitere-quellen",
-    "title": "3  Quellen",
-    "section": "3.2 Weitere Quellen",
-    "text": "3.2 Weitere Quellen\n\nQX-Club zur DAV 2008 T http://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf\nILEC Studie (Quelle für Raucheranteile) - https://www.soa.org/resources/experience-studies/2005-2009/02-04-iindividual-life-exp-rpt/",
+    "title": "4  Quellen",
+    "section": "4.2 Weitere Quellen",
+    "text": "4.2 Weitere Quellen\n\nQX-Club zur DAV 2008 T http://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf\nILEC Studie (Quelle für Raucheranteile) - https://www.soa.org/resources/experience-studies/2005-2009/02-04-iindividual-life-exp-rpt/",
     "crumbs": [
       "DAV 2008 T",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
     "objectID": "sonstiges/verweildauermethode.html",
     "href": "sonstiges/verweildauermethode.html",
-    "title": "4  Zur Verweildauermethode",
+    "title": "5  Zur Verweildauermethode",
     "section": "",
-    "text": "4.1 Auswirkung\nIn den DAV-Tafeln ab DAV 2008 T wird die Verweildauermethode mit Verweildauer 1 für die Todesfälle verwendet. Im Gegensatz dazu ist die Zählung der beobachteten Verweildauer übervorsichtig und bildet nicht die eigentliche Wahrscheinlichkeit ab.\nSei bspw. q=50% die Sterbewahrscheinlichkeit. Mit der Verweildauermethode mit Verweildauer 1 der Todesfälle würden bei 0.5 Todesfällen eine Verweildauer von 0.5 (Anteil Todesfälle) + 0.5 (Anteil Aktive ohne Todesfall) beobachtet werden und genau zu der vorliegenden Sterbewahrscheinlichkeit 0.5/1 führen.\nBei der Aktivenzählung entsprechend der Beobachtung würde 0.67 = 0.5/(0.5*0.5 + 0.5) geschätzt werden und somit die Sterbewahrscheinlichkeit um über 30% überschätzt werden.\nUm welchen Wert die Sterbewahrscheinlichkeit übershcätzt wird, ist abhängig von der Höhe des tatsächlichen \\(q_x\\) und kann der folgenden Tabelle entnommen werden. Abgeshätzt werden kann der Prozentsatz mit der Hälfte des \\(q_x\\), wobei bei größeren \\(q_x\\)-Werten der Prozentsatz unterschätzt wird.\nq\nq_schaetzung\nueberschaetzung\n\n\n\n\n0,0010\n0,0010\n1,0005\n\n\n0,0050\n0,0050\n1,0025\n\n\n0,0100\n0,0101\n1,0050\n\n\n0,0500\n0,0513\n1,0256",
+    "text": "5.1 Auswirkung\nIn den DAV-Tafeln ab DAV 2008 T wird die Verweildauermethode mit Verweildauer 1 für die Todesfälle verwendet. Im Gegensatz dazu ist die Zählung der beobachteten Verweildauer übervorsichtig und bildet nicht die eigentliche Wahrscheinlichkeit ab.\nSei bspw. q=50% die Sterbewahrscheinlichkeit. Mit der Verweildauermethode mit Verweildauer 1 der Todesfälle würden bei 0.5 Todesfällen eine Verweildauer von 0.5 (Anteil Todesfälle) + 0.5 (Anteil Aktive ohne Todesfall) beobachtet werden und genau zu der vorliegenden Sterbewahrscheinlichkeit 0.5/1 führen.\nBei der Aktivenzählung entsprechend der Beobachtung würde 0.67 = 0.5/(0.5*0.5 + 0.5) geschätzt werden und somit die Sterbewahrscheinlichkeit um über 30% überschätzt werden.\nUm welchen Wert die Sterbewahrscheinlichkeit übershcätzt wird, ist abhängig von der Höhe des tatsächlichen \\(q_x\\) und kann der folgenden Tabelle entnommen werden. Abgeshätzt werden kann der Prozentsatz mit der Hälfte des \\(q_x\\), wobei bei größeren \\(q_x\\)-Werten der Prozentsatz unterschätzt wird.\nq\nq_schaetzung\nueberschaetzung\n\n\n\n\n0,0010\n0,0010\n1,0005\n\n\n0,0050\n0,0050\n1,0025\n\n\n0,0100\n0,0101\n1,0050\n\n\n0,0500\n0,0513\n1,0256",
     "crumbs": [
       "Sonstiges",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Zur Verweildauermethode</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Zur Verweildauermethode</span>"
     ]
   }
 ]
