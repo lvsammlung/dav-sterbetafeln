@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../dav1994t/quellen.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -84,7 +85,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -124,7 +125,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">DAV Sterbetafeln</a> 
     </div>
@@ -299,15 +302,31 @@ window.Quarto = {
 </section>
 <section id="sicherheitszuschläge" class="level2">
 <h2 class="anchored" data-anchor-id="sicherheitszuschläge">Sicherheitszuschläge</h2>
-<p><img src="images/clipboard-296253850.png" class="img-fluid"></p>
+<p>Es gibt</p>
+<ul>
+<li><p>einen <strong>Schwankungszuschlag</strong> <span class="math inline">\(s^{\alpha} = 7,4\%\)</span> (geschlechts- und altersunabhängig)</p></li>
+<li><p>sowie einen <strong>Irrtumszuschlag</strong> bestehend aus zwei Komponenten (<span class="math inline">\(r^2\)</span> unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)</p></li>
+<li><p>ein impliziter <strong>Änderungszuschlag</strong> ist über die Sterblichkeitsverbesserung bereits enthalten</p></li>
+</ul>
+<p><span class="math display">\[𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \cdot (1+s^{\alpha}) \cdot (1 + r^1 + r^2)\]</span></p>
 <section id="schwankungsrisiko" class="level3">
 <h3 class="anchored" data-anchor-id="schwankungsrisiko">Schwankungsrisiko</h3>
+<section id="übersicht" class="level4">
+<h4 class="anchored" data-anchor-id="übersicht">Übersicht</h4>
+<ul>
+<li><p>anzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)</p></li>
+<li><p>Geschlechts- und altersunabhängig, Sicherheitsniveau von 95%</p>
+<ul>
+<li><p>Vorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.</p></li>
+<li><p>Modellbestand für Alter 20-65 (wo Versichertendaten vorliegen)</p></li>
+</ul></li>
+</ul>
+</section>
 </section>
 <section id="irrtumsrisiko" class="level3">
 <h3 class="anchored" data-anchor-id="irrtumsrisiko">Irrtumsrisiko</h3>
 <ul>
-<li><p>Irrtumsrisiko - für Herleitung und Anwendung</p></li>
-<li><p>Änderungsrisiko durch den Ansatz eines Nulltrends</p></li>
+<li>Irrtumsrisiko - für Herleitung und Anwendung</li>
 </ul>
 
 
@@ -366,13 +385,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

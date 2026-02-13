@@ -34,7 +34,7 @@
     "href": "dav1994t/dav1994t.html#daten",
     "title": "DAV 1994 T",
     "section": "Daten",
-    "text": "Daten",
+    "text": "Daten\nBevölkerungssterbetafel 1986/88, der zu dem Zeitpunkt aktuellsten zur Verfügung stehenden, aus einer Volkszählung abgeleiteten Bevölkerungssterbetafel.",
     "crumbs": [
       "DAV 1994 T"
     ]
@@ -105,7 +105,7 @@
     "href": "dav2008t/dav2008t.html#sicherheitszuschläge",
     "title": "DAV 2008 T",
     "section": "Sicherheitszuschläge",
-    "text": "Sicherheitszuschläge\n\n\nSchwankungsrisiko\n\n\nIrrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung\nÄnderungsrisiko durch den Ansatz eines Nulltrends",
+    "text": "Sicherheitszuschläge\nEs gibt\n\neinen Schwankungszuschlag \\(s^{\\alpha} = 7,4\\%\\) (geschlechts- und altersunabhängig)\nsowie einen Irrtumszuschlag bestehend aus zwei Komponenten (\\(r^2\\) unternehmensabhängig bei Fehlen ausreichend sicherer Erkenntnisse zum eigenen Bestand)\nein impliziter Änderungszuschlag ist über die Sterblichkeitsverbesserung bereits enthalten\n\n\\[𝑞_𝑥^{1. Ord}= 𝑞_𝑥^{2. Ord} \\cdot (1+s^{\\alpha}) \\cdot (1 + r^1 + r^2)\\]\n\nSchwankungsrisiko\n\nÜbersicht\n\nanzahlgewichtete Auswertung (VSUM-Angaben widersprüchlich)\nGeschlechts- und altersunabhängig, Sicherheitsniveau von 95%\n\nVorteil: robuster gegen Abweichungen zwischen Herleitungs- und Anwendungsbestand (zusätzlich in Irrtumsrisiko erfasst), erleichtert Ableitung von Tafelvarianten.\nModellbestand für Alter 20-65 (wo Versichertendaten vorliegen)\n\n\n\n\n\nIrrtumsrisiko\n\nIrrtumsrisiko - für Herleitung und Anwendung",
     "crumbs": [
       "DAV 2008 T"
     ]
@@ -126,18 +126,18 @@
     "href": "dav2008t/quellen.html#dav",
     "title": "3  Quellen",
     "section": "",
-    "text": "DAV 2008 T https://aktuar.de/de/wissen/fachinformationen/detail/herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR https://aktuar.de/de/wissen/fachinformationen/detail/raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/",
+    "text": "DAV 2008 T herleitung-der-sterbetafel-dav-2008-t-fuer-lebensversicherungen-mit-todesfallcharakter/\nDAV 2008 T NR raucher-und-nichtrauchersterbetafeln-fuer-lebensversicherungen-mit-todesfallcharakter/\nÜberprüfung der Richtlinien - 29.11.2022 DAV Webseite (PDF)\nBest Estimate - 23.06.2020 der-best-estimate-fuer-biometrische-rechnungsgrundlagen-in-der-lebensversicherung/",
     "crumbs": [
       "DAV 2008 T",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
     ]
   },
   {
-    "objectID": "dav2008t/quellen.html#qx-club",
-    "href": "dav2008t/quellen.html#qx-club",
+    "objectID": "dav2008t/quellen.html#weitere-quellen",
+    "href": "dav2008t/quellen.html#weitere-quellen",
     "title": "3  Quellen",
-    "section": "3.2 Qx-Club",
-    "text": "3.2 Qx-Club\nhttp://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf",
+    "section": "3.2 Weitere Quellen",
+    "text": "3.2 Weitere Quellen\n\nQX-Club zur DAV 2008 T http://www.qx-club-berlin.de/material/pdf/20080707-QXCLUB_Berlin_DAV2008T.pdf\nILEC Studie (Quelle für Raucheranteile) - https://www.soa.org/resources/experience-studies/2005-2009/02-04-iindividual-life-exp-rpt/",
     "crumbs": [
       "DAV 2008 T",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Quellen</span>"
